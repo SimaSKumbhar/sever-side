@@ -10,7 +10,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-  origin:["https://peaceful-alpaca-14fad0.netlify.app"],
+  origin:["https://storied-pavlova-b2b96a.netlify.app/"],
   methods:["GET","POST"],
   credentials:true,
 }));
