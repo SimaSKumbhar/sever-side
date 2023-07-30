@@ -10,7 +10,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-  origin:["http://localhost:5173"],
+  origin:["https://peaceful-alpaca-14fad0.netlify.app"],
   methods:["GET","POST"],
   credentials:true,
 }));
